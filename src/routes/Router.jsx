@@ -8,6 +8,7 @@ import ResetPassword from "../pages/ResetPasswordScreen";
 import GalaxyLayout from "../components/GalaxyLayout";
 import AnimatedPage from "../components/AnimatedPage";
 import ProtectedRoute from "../components/ProtectedRoute";
+import LogoScreen from "../pages/LogoScreen";
 
 export default function AppRouter() {
   return (
@@ -22,6 +23,15 @@ export default function AppRouter() {
                 <Home />
               </AnimatedPage>
             } 
+          />
+
+          <Route
+            path="/logo"
+            element={
+              <AnimatedPage>
+                <LogoScreen />
+              </AnimatedPage>
+            }
           />
           
           <Route 
