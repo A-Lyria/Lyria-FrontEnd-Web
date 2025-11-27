@@ -1,0 +1,19 @@
+.logo-screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #ffffff;
+}
